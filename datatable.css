@@ -1,0 +1,103 @@
+.ascOrder {
+  background-image: url(./sort_asc.png);
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+}
+
+.descOrder {
+  background-image: url(./sort_desc.png);
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+}
+
+.noOrder {
+  cursor: pointer;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#datatable_table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  clear: both;
+}
+
+th, td {
+  border: 1px solid black;
+  height: 30px;
+}
+
+#datatable_columns {
+  margin: 10px 0;
+  display: inline-block;
+  float: left;
+}
+
+.datatypeSearchContainer {
+  display: inline-block;
+  float: right;
+  height: 20px;
+  margin: 10px 0;
+}
+
+#datatype_search {
+  width: 200px;
+}
+
+.datatypeSearchContainer label {
+  font-weight: bold;
+}
+
+.datatable_columns_labels {
+  margin-right: 30px;
+}
+
+#datatable_columns_info, h4 {
+  display: inline;
+}
+
+.pageLink {
+  cursor: pointer;
+  margin-left: 10px;
+  border: 1px solid black;
+  padding: 0 10px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+.pageLink.selected {
+  border: 3px solid black;
+}
+
+#datatable_pagination {
+  float: right;
+  margin: 10px 0;
+}
+
+#id {
+  width: 5%;
+}
+#name {
+  width: 12%;
+}
+#description {
+  width: 50%;
+}
+#private {
+  width: 6%;
+}
+#forks {
+  width: 5%;
+}
+#size {
+  width: 4%;
+}
+#watchers {
+  width: 6%;
+}
+#created_at {
+  width: 12%;
+}
